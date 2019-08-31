@@ -23,9 +23,12 @@ class Lifter
   end
 
   def self.average_lift
+    lift_totals = self.all.map{ |lifter| lifter.lift_total }
+    lift_totals.sum / self.all.length
   end
 
   def total_membership_cost
+    memberships.map{ |membership| membership.cost }.sum
   end
 
   def new_membership(gym, cost)

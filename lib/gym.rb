@@ -26,7 +26,7 @@ class Gym
   end
 
   def combined_lift_total
-    
+    lifters.map{|lifter| lifter.lift_total}.sum
   end
 
 end
