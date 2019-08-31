@@ -3,9 +3,9 @@ class Membership
 
   @@all = []
 
-
   ###### Instance methods ######
 
+  #Works!
   def initialize(gym, lifter, cost)
     @gym = gym
     @lifter = lifter
@@ -17,6 +17,7 @@ class Membership
 
   ###### Class methods ######
 
+  #Works!
   def self.all
     @@all
   end
