@@ -43,7 +43,7 @@ class Lifter
 
   #Works!
   def self.average_lift()
-    lifts = @@all.reduce(0) { | memo, lifter | memo + lifter.lift_total }
-    lifts.to_f() / @@all.length
+    lifts = self.all().reduce(0) { | memo, lifter | memo + lifter.lift_total }
+    lifts.to_f() / self.all().length
   end
 end
