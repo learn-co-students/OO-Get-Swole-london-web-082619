@@ -11,6 +11,11 @@ class Membership
     @lifter = lifter
     self.class.all << self
   end
+
+  def self.all
+    @@all
+  end
+  
 end
 
   
