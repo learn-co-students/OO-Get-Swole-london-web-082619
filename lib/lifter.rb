@@ -22,7 +22,7 @@ class Lifter
 
  def self.average_lift 
   total_sum = @@all.sum{|lifter| lifter.lift_total}.to_f
-  num_lifter =  @@all.length # OR total_sum / num_lifter @@all.count{|lifter| lifter.name} 
+  num_lifter =  @@all.length # OR @@all.count{|lifter| lifter.name} 
   total_sum / num_lifter 
  end 
 
