@@ -13,6 +13,12 @@ require_relative '../config/environment.rb'
  l2 = Lifter.new("Jo", 500)
  l3 = Lifter.new("Matt", 100)
 
+ =begin
+ m1 = Membership.new(g1, l1, 40)
+ m2 = Membership.new(g2, l2, 40)
+ m3 = Membership.new(g3, l2, 40)
+=end
+
 binding.pry
 
 puts "Gains"
