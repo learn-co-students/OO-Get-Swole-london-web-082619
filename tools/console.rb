@@ -2,7 +2,7 @@
 # We've done it for you here.
 require_relative '../config/environment.rb'
 
-# test code goes here. small ones first
+# test code goes here. small groups first
 
 
  g1 = Gym.new("PureGym")
@@ -19,7 +19,7 @@ require_relative '../config/environment.rb'
 
 # puts Lifter.all
 # puts l1.memberships
-# puts l1.gyms
+puts l1.gyms
 # puts Lifter.average_lift_total
 # puts l1.total_gym_cost
 
