@@ -16,6 +16,8 @@ There are **no** tests! You will need to test your code on your own!!
 
 Here's what we need to be able to do.
 
+Lifter gym Membership
+
 **Lifter**
 
   - Get a list of all lifters
